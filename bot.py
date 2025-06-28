@@ -5,8 +5,8 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup # type: ignore
 import os
 BOT_TOKEN = os.getenv('BOT_TOKEN')
 
-# Replace 'YOUR_BOT_TOKEN' with the token from @BotFather
-BOT_TOKEN = '7907503930:AAHrfx5V_88OcUrylFnhBR4PJzIi0ifUF2c'
+# # Replace 'YOUR_BOT_TOKEN' with the token from @BotFather
+# BOT_TOKEN = '7907503930:AAHrfx5V_88OcUrylFnhBR4PJzIi0ifUF2c'
 
 # Command handlers
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
