@@ -2,6 +2,9 @@ from telegram import Update # type: ignore
 from telegram.ext import Application, CommandHandler, ContextTypes # type: ignore
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup # type: ignore
 
+import os
+BOT_TOKEN = os.getenv('BOT_TOKEN')
+
 # Replace 'YOUR_BOT_TOKEN' with the token from @BotFather
 BOT_TOKEN = '7907503930:AAHrfx5V_88OcUrylFnhBR4PJzIi0ifUF2c'
 
